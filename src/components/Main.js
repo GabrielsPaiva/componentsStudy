@@ -4,8 +4,6 @@ import React from "react";
 import styled from 'styled-components'
 import media from "styled-media-query";
 
-// libs
-import Carousel from 'react-elastic-carousel'
 
 // images
 import Characters from "./Characters";

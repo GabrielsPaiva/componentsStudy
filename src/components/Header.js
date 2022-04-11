@@ -5,8 +5,8 @@ import styled from "styled-components";
 import media from "styled-media-query"
 
 // images
-import valorantLogo from "C:/Users/gabri/OneDrive/Documentos/VS code/Desafios/components/src/assets/valorant_logo.jpg";
-import valorantName from "C:/Users/gabri/OneDrive/Documentos/VS code/Desafios/components/src/assets/valorant_name.png";
+import Logo from "../assets/valorant_logo.jpg";
+import Name from "../assets/valorant_name.png";
 
 const Div = styled.div`
   background-color: rgb(17, 17, 17);
@@ -80,8 +80,8 @@ function Header() {
         <ListItem>galeria</ListItem>
       </List>
       <LogoDiv>
-        <ValorantLogo src={valorantLogo} alt="" />
-        <ValorantName src={valorantName} alt="" />
+        <ValorantLogo src={Logo} alt="" />
+        <ValorantName src={Name} alt="" />
       </LogoDiv>
     </Div>
   );
