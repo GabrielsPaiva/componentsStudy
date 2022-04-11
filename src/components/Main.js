@@ -9,7 +9,6 @@ import Carousel from 'react-elastic-carousel'
 
 // images
 import Characters from "./Characters";
-import CharactersFunction from "./CharactersFunction";
 
 const Div = styled.div`
 background-color: rgb(255,70,85);
